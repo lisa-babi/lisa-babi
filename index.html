@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sen Money</title>
+    <script type ="text/javascript" src="script.js"></script> 
+    <link rel="stylesheet" href"style.css">
+    <h>SEN MONEY</h>
+    <script>
+        var solde = 10000;
+        
+        function afficherSolde()
+{
+	alert("Votre solde est de : "+solde);
+	var confirm = window.confirm("Voulez-vous continuer");
+	if(confirm == true)
+		menu();
+}
+
+function transferer()
+{
+	var saisir = window.prompt("Saisir le montant à transférer");
+	montant = montant + parseInt(saisir);
+	var confirm = window.confirm("Voulez-vous continuer");
+	if(confirm == true)
+		menu();
+	
+}
+
+
+
+    </script>
+
+ 
+    
+</head>
+
+
+<body>
+    
+    <br><br><select id="numero">
+        <option value="773980150">773980150</option>
+        <option value="773238108">773238108</option>
+        <option value="78600733">786007332</option>
+        <option value="760101109">760101109</option>
+      </select>
+      <br><br><button onclick="menu();">#221#</button>
+       
+       
+</body>
+</html>
